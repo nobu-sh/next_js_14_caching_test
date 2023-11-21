@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## How to Run This Project
 ```
 # start the node server first (which provides an example api endpoint of https://localhost:8001
