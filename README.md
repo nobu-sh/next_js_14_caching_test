@@ -1,5 +1,5 @@
 ## What is this project?
-I found an error with Router Cache. This app works fine initially: Server Component stays cached first five minutes (dynamic component).
+I found an error with Router Cache. This app works fine initially: Server Component's RSC Payload stays cached on browser for first five minutes (dynamic component).
 However, after 5 minutes, when first invalidation happens, it just never gets cached again and keeps fetching on every single navigation.
 If I refresh the page, the Router Cache becomes fine again until the next invalidation.
 
