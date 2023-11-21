@@ -1,3 +1,8 @@
+## What is this project?
+I found an error with Router Cache. My app works find until the first render: Server Component stays cached first five minutes (dynamic component).
+However, after 5 minutes, when first invalidation happens, it just never gets cached again and keeps fetching on every single navigation.
+If I refresh the page, the Router Cache becomes fine again until the next invalidation.
+
 ## How to Run This Project
 ```
 # start the node server first (which provides an example api endpoint of https://localhost:8001
@@ -20,3 +25,5 @@ npm run start
 4. Come back and again navigate between `hello` page and `home` page.
 
 5. Now both values change every time you navigate... Is this an intended behavior???
+
+6. If I refresh, it works again...
