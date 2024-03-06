@@ -20,10 +20,10 @@ npm run start
 
 2. If you navigate between the `hello` page and the `home` page, you can see the Router Cache works perfectly, only caching the server component render.
 
-3. Now switch tab and do other things for 5 minutes (invalidation time for dynamic route)
+3. Now leave it alone for 3ish minutes (invalidation time for dynamic route)
 
 4. Come back and again navigate between `hello` page and `home` page.
 
-5. Now both values change every time you navigate... Is this an intended behavior???
+5. Now both values change every time you navigate... This is not intended behavior.
 
 6. If I refresh, it works again...
